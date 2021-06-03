@@ -14,3 +14,4 @@ Download the datasets in question and extract to the following folders:
 Then run each preprocess script to yield an .h5 file containing the preprocessed dataset. These scripts will require the following Python3 packages:
 * h5py
 * numpy
+* pandas
