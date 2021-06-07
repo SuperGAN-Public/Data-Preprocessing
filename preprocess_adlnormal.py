@@ -92,7 +92,7 @@ if __name__ == '__main__':
         onehot = [0.0, 0.0, 0.0, 0.0, 0.0]
         onehot[label - 1] = 1.0
         nwindows = len(features) # Number of sliding windows we generated
-        ys.extend([label] * nwindows)
+        ys.extend([label - 1] * nwindows)
         y_onehots.extend([onehot] * nwindows)
 
     xs = np.array(xs)
